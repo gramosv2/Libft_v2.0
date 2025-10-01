@@ -13,8 +13,11 @@ By the end of the project, you'll have your own reusable C library, ready to be 
 ## 📁 Project Files
 
 libft/
+
 ├── ft_*.c # Source files for all functions
+
 ├── libft.h # Header file with function prototypes and includes
+
 ├── Makefile # To compile the library into libft.a
 
 ---
