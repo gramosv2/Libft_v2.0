@@ -1,30 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_toupper.c                                       :+:      :+:    :+:   */
+/*   ft_isdigit.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gramos-l <gramos-l@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: goramos- <goramos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/17 17:23:24 by gramos-l          #+#    #+#             */
-/*   Updated: 2024/03/15 10:44:03 by gramos-l         ###   ########.fr       */
+/*   Created: 2025/09/30 22:46:54 by goramos-          #+#    #+#             */
+/*   Updated: 2025/09/30 22:47:20 by goramos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_toupper(int c)
+int	ft_isdigit(int c)
 {
-	if (c >= 97 && c <= 122)
-		return (c - 32);
-	else
-		return (c);
+	if (c >= 48 && c <= 57)
+		return (1);
+	return (0);
 }
-
-// int main(void)
-// {
-//     char c;
-//     c = 'a';
-//     printf("%d\n",ft_toupper(c));
-
-//     return(0);
-// }

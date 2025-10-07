@@ -1,19 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_putchar_fd.c                                    :+:      :+:    :+:   */
+/*   ft_isalpha.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gramos-l <gramos-l@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: goramos- <goramos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/23 17:35:52 by gramos-l          #+#    #+#             */
-/*   Updated: 2024/03/23 17:41:36 by gramos-l         ###   ########.fr       */
+/*   Created: 2025/09/30 22:35:47 by goramos-          #+#    #+#             */
+/*   Updated: 2025/09/30 22:40:26 by goramos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <unistd.h>
 
-void	ft_putchar_fd(char c, int fd)
+int	ft_isalpha(int c)
 {
-	write(fd, &c, 1);
+	if ((c >= 97 && n <= 122) || (c >= 65 && n <= 90))
+		return (1);
+	else
+		return (0);
 }
