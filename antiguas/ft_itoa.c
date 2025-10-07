@@ -1,25 +1,44 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_calloc.c                                        :+:      :+:    :+:   */
+/*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gramos-l <gramos-l@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: goramos- <goramos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/23 09:49:53 by gramos-l          #+#    #+#             */
-/*   Updated: 2024/03/23 09:51:51 by gramos-l         ###   ########.fr       */
+/*   Created: 2025/10/07 17:52:44 by goramos-          #+#    #+#             */
+/*   Updated: 2025/10/07 17:57:27 by goramos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+
 
 #include "libft.h"
 #include <stdlib.h>
 
-void	*ft_calloc(size_t count, size_t size)
+static int	count_char(int num)
 {
-	void	*mem;
+	int	counter;
 
-	mem = malloc(size * count);
-	if (!mem)
-		return (0);
-	ft_bzero(mem, count * size);
-	return (mem);
+	counter = 0;
+	if (num != 0)
+	{
+		if (num < 0)
+		{
+			num = num * (-1);
+			counter++;
+		}
+		while (num != 0)
+		{
+			num = num / 10;
+			counter++;
+		}
+	}
+	else
+		return (1);
+	return (counter);
+}
+
+char	*ft_itoa(int n)
+{
+
 }
