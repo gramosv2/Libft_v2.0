@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gramos-l <gramos-l@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: goramos- <goramos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/23 16:42:21 by gramos-l          #+#    #+#             */
-/*   Updated: 2024/03/23 17:10:56 by gramos-l         ###   ########.fr       */
+/*   Created: 2025/10/07 15:28:31 by goramos-          #+#    #+#             */
+/*   Updated: 2025/10/07 15:28:32 by goramos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+
 
 #include "libft.h"
 #include <stdio.h>

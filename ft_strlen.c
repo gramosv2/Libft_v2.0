@@ -3,12 +3,13 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gramos-l <gramos-l@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: goramos- <goramos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/15 15:53:10 by gramos-l          #+#    #+#             */
-/*   Updated: 2024/03/23 17:08:27 by gramos-l         ###   ########.fr       */
+/*   Created: 2025/10/07 15:28:24 by goramos-          #+#    #+#             */
+/*   Updated: 2025/10/07 15:28:25 by goramos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 
 #include "libft.h"
 

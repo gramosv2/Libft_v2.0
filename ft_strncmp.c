@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gramos-l <gramos-l@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: goramos- <goramos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/17 15:00:36 by gramos-l          #+#    #+#             */
-/*   Updated: 2024/03/22 17:13:28 by gramos-l         ###   ########.fr       */
+/*   Created: 2025/10/07 15:28:36 by goramos-          #+#    #+#             */
+/*   Updated: 2025/10/07 15:28:37 by goramos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+
 
 #include "libft.h"
 

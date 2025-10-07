@@ -1,36 +1,35 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_bzero.c                                         :+:      :+:    :+:   */
+/*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: goramos- <goramos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/27 13:32:14 by goramos-          #+#    #+#             */
-/*   Updated: 2025/09/30 18:29:23 by goramos-         ###   ########.fr       */
+/*   Created: 2025/10/07 15:25:06 by goramos-          #+#    #+#             */
+/*   Updated: 2025/10/07 15:25:07 by goramos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+
 #include "libft.h"
-#include <stdio.h>
+#include <unistd.h>
 
-void	ft_bzero(void *b, size_t len)
+void	ft_putnbr_fd(int n, int fd)
 {
-	unsigned char	*p;
-	size_t			i;
-
-	p = b;
-	i = 0;
-	while (i < len)
+	if (n == -2147483648)
+		write(fd, "-2147483648", 11);
+	else if (n < 0)
 	{
-		p[i] = 0;
-		i++;
+		ft_putchar_fd('-', fd);
+		ft_putnbr_fd(-n, fd);
+	}
+	else if (n > 9)
+	{
+		ft_putnbr_fd(n / 10, fd);
+		ft_putnbr_fd(n % 10, fd);
+	}
+	else
+	{
+		ft_putchar_fd(n + '0', fd);
 	}
 }
-
-// int main() {
-//     char buffer[10] = "Hello";
-//     printf("Buffer antes de bzero: %s\n", buffer);
-//     ft_bzero(buffer, 1);
-//     printf("Buffer después de bzero: %s\n", buffer);
-//     return (0);
-// }

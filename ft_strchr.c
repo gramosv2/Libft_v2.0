@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gramos-l <gramos-l@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: goramos- <goramos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/02/13 18:47:01 by gramos-l          #+#    #+#             */
-/*   Updated: 2024/03/22 17:09:59 by gramos-l         ###   ########.fr       */
+/*   Created: 2025/10/07 15:27:51 by goramos-          #+#    #+#             */
+/*   Updated: 2025/10/07 15:27:52 by goramos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+
 
 #include "libft.h"
 

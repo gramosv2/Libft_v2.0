@@ -3,12 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strdup.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gramos-l <gramos-l@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: goramos- <goramos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/07 11:32:43 by gramos-l          #+#    #+#             */
-/*   Updated: 2024/03/22 17:25:49 by gramos-l         ###   ########.fr       */
+/*   Created: 2025/10/07 15:27:58 by goramos-          #+#    #+#             */
+/*   Updated: 2025/10/07 15:27:59 by goramos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
+
 
 #include "libft.h"
 #include <stdlib.h>
