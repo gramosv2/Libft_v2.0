@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcmp.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gramos-l <gramos-l@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: goramos- <goramos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/07 11:24:09 by gramos-l          #+#    #+#             */
-/*   Updated: 2024/03/22 17:37:00 by gramos-l         ###   ########.fr       */
+/*   Created: 2025/10/14 13:54:04 by goramos-          #+#    #+#             */
+/*   Updated: 2025/10/14 13:54:15 by goramos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,26 +25,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-// int	main(void)
-// {
-// 	const char	*str1 = "Hello";
-// 	const char	*str2 = "World";
-// 	int			result;
-
-// 	result = ft_memcmp(str1, str2, 5);
-// 	// Comparando los primeros 5 caracteres
-// 	if (result == 0)
-// 	{
-// 		printf("Las cadenas son iguales.\n");
-// 	}
-// 	else if (result < 0)
-// 	{
-// 		printf("La primera cadena es menor que la segunda.\n");
-// 	}
-// 	else
-// 	{
-// 		printf("La primera cadena es mayor que la segunda.\n");
-// 	}
-// 	return (0);
-// }

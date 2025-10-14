@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memcpy.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gramos-l <gramos-l@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: goramos- <goramos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/01/27 17:34:16 by gramos-l          #+#    #+#             */
-/*   Updated: 2024/03/22 17:33:16 by gramos-l         ###   ########.fr       */
+/*   Created: 2025/10/14 13:54:49 by goramos-          #+#    #+#             */
+/*   Updated: 2025/10/14 13:54:51 by goramos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,13 +26,3 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
-
-// int main (void)
-// {
-//     char dest3[] = "mula";
-//     const char src3[] = "hohoho";
-//     size_t n2 = 2;
-//     printf("%s\n", ft_memcpy(dest3,src3,n2));
-//     return(0);
-
-// }

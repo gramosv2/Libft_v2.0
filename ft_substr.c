@@ -3,27 +3,15 @@
 /*                                                        :::      ::::::::   */
 /*   ft_substr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gramos-l <gramos-l@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: goramos- <goramos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/13 14:45:07 by gramos-l          #+#    #+#             */
-/*   Updated: 2024/03/22 17:57:10 by gramos-l         ###   ########.fr       */
+/*   Created: 2025/10/14 13:46:16 by goramos-          #+#    #+#             */
+/*   Updated: 2025/10/14 13:47:05 by goramos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include "libft.h"
 
-static size_t	str_len(char const *str)
-{
-	size_t	i;
-
-	i = 0;
-	while (*(str + i))
-		i++;
-	return (i);
-}
 
 static char	*str_new(size_t n)
 {
@@ -42,10 +30,10 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 
 	if (!s)
 		return (NULL);
-	if (start > str_len(s))
+	if (start > ft_strlen(s))
 		len = 0;
-	else if (len > (str_len(s) - start))
-		len = str_len(s) - start;
+	else if (len > (ft_strlen(s) - start))
+		len = ft_strlen(s) - start;
 	str = str_new(len);
 	if (!str)
 		return (NULL);

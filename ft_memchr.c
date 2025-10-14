@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_memchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gramos-l <gramos-l@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: goramos- <goramos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/07 11:23:42 by gramos-l          #+#    #+#             */
-/*   Updated: 2024/03/15 10:03:52 by gramos-l         ###   ########.fr       */
+/*   Created: 2025/10/14 13:51:08 by goramos-          #+#    #+#             */
+/*   Updated: 2025/10/14 13:53:15 by goramos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,12 +25,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return ((void *)0);
 }
-
-// int main (void)
-// {
-//     const void *hola = 'hola mundo';
-// 	int adios = 'o';
-// 	size_t nos_vemos = '3';
-//     write(1,&(char){ft_memchr(hola) + '0' }, 1);
-//     return(0);
-// }
