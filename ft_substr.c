@@ -6,12 +6,11 @@
 /*   By: goramos- <goramos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/14 13:46:16 by goramos-          #+#    #+#             */
-/*   Updated: 2025/10/14 13:47:05 by goramos-         ###   ########.fr       */
+/*   Updated: 2025/10/27 21:38:15 by goramos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
 
 static char	*str_new(size_t n)
 {

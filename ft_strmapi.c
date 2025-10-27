@@ -6,15 +6,11 @@
 /*   By: goramos- <goramos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/07 15:28:31 by goramos-          #+#    #+#             */
-/*   Updated: 2025/10/07 15:28:32 by goramos-         ###   ########.fr       */
+/*   Updated: 2025/10/27 21:37:31 by goramos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
-
 #include "libft.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 char	*ft_strmapi(const char *s, char (*f)(unsigned int, char))
 {

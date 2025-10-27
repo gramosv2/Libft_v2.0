@@ -6,14 +6,11 @@
 /*   By: goramos- <goramos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/07 15:27:58 by goramos-          #+#    #+#             */
-/*   Updated: 2025/10/07 15:27:59 by goramos-         ###   ########.fr       */
+/*   Updated: 2025/10/27 21:36:34 by goramos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
-
 #include "libft.h"
-#include <stdlib.h>
 
 char	*ft_strdup(const char *s1)
 {

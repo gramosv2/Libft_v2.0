@@ -6,7 +6,7 @@
 /*   By: goramos- <goramos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/10/07 15:05:48 by goramos-          #+#    #+#             */
-/*   Updated: 2025/10/07 15:09:18 by goramos-         ###   ########.fr       */
+/*   Updated: 2025/10/27 21:18:57 by goramos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ void	ft_bzero(void *b, size_t len)
 	str = b;
 	while (str[i] < len)
 	{
-		p[i] = 0;
+		str[i] = 0;
 		i++;
 	}
 }

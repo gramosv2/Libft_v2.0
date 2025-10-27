@@ -3,16 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: gramos-l <gramos-l@student.42madrid.com    +#+  +:+       +#+        */
+/*   By: goramos- <goramos-@student.42madrid.com    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/03/22 16:10:35 by gramos-l          #+#    #+#             */
-/*   Updated: 2024/03/22 16:17:00 by gramos-l         ###   ########.fr       */
+/*   Created: 2025/10/27 21:29:40 by goramos-          #+#    #+#             */
+/*   Updated: 2025/10/27 21:30:16 by goramos-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdio.h>
-#include <stdlib.h>
 
 static size_t	ft_countword(char const *s, char c)
 {
